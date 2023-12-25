@@ -1,15 +1,28 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">Hello</header>
-      <button  className="btn btn-primary">
-         Button
-      </button>
+      <div className="container">
+        <header className="App-header">Dictionary</header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small>
+            coded by Chisenga Chisulo and is{" "}
+            <a
+              href="https://github.com/chisengachisulo/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced on Github
+            </a>
+          </small>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
