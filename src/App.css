@@ -1,6 +1,8 @@
 .App-header {
   text-align: center;
   margin: 30px 0;
+  font-size: 50px;
+  font-weight: 400;
 }
 
 .App-footer {
