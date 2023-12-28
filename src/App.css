@@ -1,8 +1,12 @@
+body {
+  background-color: #ebe8fd;
+}
+
 .App-header {
   text-align: center;
   margin: 30px 0;
   font-size: 50px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .App-footer {
