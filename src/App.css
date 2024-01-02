@@ -1,15 +1,23 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0 100px;
+}
+
 body {
-  background-color: #ebe8fd;
+  background-color: #e4dffd !important;
 }
 
 .App-header {
   text-align: center;
   margin: 30px 0;
-  font-size: 50px;
-  font-weight: 600;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  font-size: 13px;
 }
